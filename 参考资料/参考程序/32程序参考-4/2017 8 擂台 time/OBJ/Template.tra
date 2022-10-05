@@ -1,0 +1,68 @@
+*** Creating Trace Output File '..\OBJ\Template.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\main.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_it.o"'
+### List of Objects: adding '"..\obj\system_stm32f4xx.o"'
+### List of Objects: adding '"..\obj\startup_stm32f40_41xxx.o"'
+### List of Objects: adding '"..\obj\misc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_adc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_can.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_crc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_cryp.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_cryp_aes.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_cryp_des.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_cryp_tdes.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_dac.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_dbgmcu.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_dcmi.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_dma2d.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_dma.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_exti.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_flash.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_flash_ramfunc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_fsmc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_gpio.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_hash.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_hash_md5.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_hash_sha1.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_i2c.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_iwdg.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_ltdc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_pwr.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_rcc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_rng.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_rtc.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_sai.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_sdio.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_spi.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_syscfg.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_tim.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_usart.o"'
+### List of Objects: adding '"..\obj\stm32f4xx_wwdg.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\sys.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\adc.o"'
+### List of Objects: adding '"..\obj\dma.o"'
+### List of Objects: adding '"..\obj\exti.o"'
+### List of Objects: adding '"..\obj\motor.o"'
+### List of Objects: adding '"..\obj\timer.o"'
+### List of Objects: adding '"..\obj\edge.o"'
+### List of Objects: adding '"..\obj\filter.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "..\obj\main.o" "..\obj\stm32f4xx_it.o" "..\obj\system_stm32f4xx.o" "..\obj\startup_stm32f40_41xxx.o" "..\obj\misc.o" "..\obj\stm32f4xx_adc.o" "..\obj\stm32f4xx_can.o" "..\obj\stm32f4xx_crc.o" "..\obj\stm32f4xx_cryp.o" "..\obj\stm32f4xx_cryp_aes.o" "..\obj\stm32f4xx_cryp_des.o" "..\obj\stm32f4xx_cryp_tdes.o" "..\obj\stm32f4xx_dac.o" "..\obj\stm32f4xx_dbgmcu.o" "..\obj\stm32f4xx_dcmi.o" "..\obj\stm32f4xx_dma2d.o" "..\obj\stm32f4xx_dma.o" "..\obj\stm32f4xx_exti.o" "..\obj\stm32f4xx_flash.o" "..\obj\stm32f4xx_flash_ramfunc.o" "..\obj\stm32f4xx_fsmc.o" "..\obj\stm32f4xx_gpio.o" "..\obj\stm32f4xx_hash.o" "..\obj\stm32f4xx_hash_md5.o" "..\obj\stm32f4xx_hash_sha1.o" "..\obj\stm32f4xx_i2c.o" "..\obj\stm32f4xx_iwdg.o" "..\obj\stm32f4xx_ltdc.o" "..\obj\stm32f4xx_pwr.o" "..\obj\stm32f4xx_rcc.o" "..\obj\stm32f4xx_rng.o" "..\obj\stm32f4xx_rtc.o" "..\obj\stm32f4xx_sai.o" "..\obj\stm32f4xx_sdio.o" "..\obj\stm32f4xx_spi.o" "..\obj\stm32f4xx_syscfg.o" "..\obj\stm32f4xx_tim.o" "..\obj\stm32f4xx_usart.o" "..\obj\stm32f4xx_wwdg.o" "..\obj\delay.o" "..\obj\sys.o" "..\obj\usart.o" "..\obj\adc.o" "..\obj\dma.o" "..\obj\exti.o" "..\obj\motor.o" "..\obj\timer.o" "..\obj\edge.o" "..\obj\filter.o" 
+--strict --scatter "..\OBJ\Template.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\OBJ\Template.map" -o ..\OBJ\Template.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\Template.axf'
+### ADS-LD Command File: '..\OBJ\Template.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\Template.lnp', Handle=0x000003B0
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\Template.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

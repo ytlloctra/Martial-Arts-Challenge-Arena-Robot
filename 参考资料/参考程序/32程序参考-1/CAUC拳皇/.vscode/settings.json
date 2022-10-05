@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "car_system.h": "c",
+        "attack.h": "c",
+        "key.h": "c"
+    }
+}
